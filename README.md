@@ -151,47 +151,46 @@ The CLIENT1 should appear below the DC. Go to settings for CLIENT1, and select S
 
 <p align="center">
 Navigate to "Network" tab in "settings", and under "adapter 1", find "Attached to" and select "Internal Network", then click "OK".: <br/>
-<img src="https://imgur.com/C3mOUU2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/C3mOUU2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
 <p align="center">
 Its time to start up the CLIENT1, so start it up and select the Windows ISO file from the drop down. : <br/>
-<img src="https://imgur.com/bDMqbAO" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/bDMqbAO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
 <p align="center">
 Time to start the Windows 10 install! For me I skipped activation, but if you need to activate your Windows then do so. Select your Language of choice, and then click next. Next make sure to select "Windows 10 pro" and NOT home edition for this lab. Next, select "Custom install", and then on the next screen, select your Drive. For the next screen I selected "Limited Experience", but if you need to select the other option you can. I named the PC "User" for this lab, and left the password blank. We should be logged into the home screen now.: <br/>
-<img src="https://imgur.com/4YB5Mwu" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/ZiJlin9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/7SUVVxr" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/9fRaQNc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://imgur.com/2r7Lh8C" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://imgur.com/6eB19sV" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/i30LVi4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/4YB5Mwu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/ZiJlin9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/7SUVVxr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/9fRaQNc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/2r7Lh8C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/6eB19sV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/i30LVi4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="" height="80%" width="80%.png" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
 <p align="center">
 Now that we are on the home screen, We want to open "CMD" as Admin and run the command "ipconfig /all", and check for a Default Gateway. If it has the right IP for the Default Gateway then we can move on and run "ping www.google.com" to check for connection to the internet. Next we can run the command "ping mydomain.com", This will show you if your connected and everything is set up correct so far. Finally, we can run the command "hostname" To see what comes up.   : <br/>
-<img src="https://imgur.com/FAkqEGw" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/n0eZx0d" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/v3LII26" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://imgur.com/YUoysUl" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-   <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-    <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/FAkqEGw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/n0eZx0d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/v3LII26.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/YUoysUl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   
  
 <br />
 </p>
 
 <p align="center">
 We need to rename the PC, so we will open Windows start and find the PC settings menu and rename the PC to "CLIENT1", and also select the domain option and enter "mydomain.com", then apply settings. You will need to enter the Admin login to make the change. Finally, the PC will restart. : <br/>
-<img src="https://imgur.com/aZRorrK" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/oXyL7Sg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/aNsa896" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://imgur.com/sdYh2eW" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/aZRorrK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/oXyL7Sg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/aNsa896.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/sdYh2eW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
@@ -201,8 +200,8 @@ We need to rename the PC, so we will open Windows start and find the PC settings
 
 <p align="center">
 Next we head back over to DHCP tool in the Server manager, and select the "Address Leases" and check if our client IP is in there. Next, select "Computers" inside of the Domain folder and check to see if "CLIENT1" computer has populated. : <br/>
-<img src="https://imgur.com/9jy1k9L" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/4KnST6t" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/9jy1k9L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/4KnST6t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br />
 </p>
@@ -212,8 +211,8 @@ Next we head back over to DHCP tool in the Server manager, and select the "Addre
 
 <p align="center">
 Now that we have verified some things, lets log into a user account from our list of users. Select "other user" and use login credentials from a desired user and login. : <br/>
-<img src="https://imgur.com/6bcYD2z" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/tsvgXpN" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/6bcYD2z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/tsvgXpN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br />
 </p>
