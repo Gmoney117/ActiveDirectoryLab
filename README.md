@@ -3,12 +3,12 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Documented setup of Active Directory, Including a Youtube video with me doing the project.
+This project demonstrates the setup and configuration of a basic Active Directory environment that resembles a small corporate network. This project will be a walkthrough of everything to get the lab running and the clients internal network connected to the internet through the domain controller. I used a Python script to add 100 users and configure them for me. I will be doing more with this lab setup for future projects and will be removing most of the 1000 users and readding more in the future. This showcases efficient automation and a seamless integration of users into the network infrastructure.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
-
+- <b>Python</b> 
 - <b>PowerShell</b> 
 - <b>Diskpart</b>
 
