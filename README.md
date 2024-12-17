@@ -170,7 +170,7 @@ Time to start the Windows 10 install! For me I skipped activation, but if you ne
   <img src="https://imgur.com/2r7Lh8C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <img src="https://imgur.com/6eB19sV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/i30LVi4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="" height="80%" width="80%.png" alt="Disk Sanitization Steps"/>
+
 <br />
 </p>
 
