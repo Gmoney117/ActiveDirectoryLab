@@ -65,7 +65,7 @@ Sign out and Sign back in as Admin again with your password: <br/>
 
 <p align="center">
 Create an Organizational Unit for the Domain, And name it _ADMINS: <br/>
-<img src="https://imgur.com/zIWlzmN" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/zIWlzmN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/49qKnio.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
