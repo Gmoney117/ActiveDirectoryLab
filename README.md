@@ -19,6 +19,12 @@ Documented setup of Active Directory, Including a Youtube video with me doing th
 <h2>Program walk-through:</h2>
 
 <p align="center">
+Diagram of the project Network: <br/>
+<[img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"](https://imgur.com/0AZG1AM)/>
+<br />
+</p>
+
+<p align="center">
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
