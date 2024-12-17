@@ -1,6 +1,7 @@
 <h1>Active Directory Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+
+ ### [Youtube video for the Project]()
 
 <h2>Description</h2>
 This project demonstrates the setup and configuration of a basic Active Directory environment that resembles a small corporate network. This project will be a walkthrough of everything to get the lab running and the clients internal network connected to the internet through the domain controller. I used a Python script to add 100 users and configure them for me. I will be doing more with this lab setup for future projects and will be removing most of the 1000 users and readding more in the future. This showcases efficient automation and a seamless integration of users into the network infrastructure.
