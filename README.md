@@ -96,7 +96,7 @@ Under Routing and Remote Access, right-click the DC and select "configure and en
 </p>
 
 <p align="center">
-select add roles and features wizard, then select next, then select Role-based or feature based install, then select a server from server pool, and choose your domain from the list. In server rules select DHCP Server checkbox,  : <br/>
+select add roles and features wizard, then select next, then select Role-based or feature based install, then select a server from server pool, and choose your domain from the list. In server rules select DHCP Server checkbox, and start the install.: <br/>
 <img src="https://imgur.com/6XPt6oJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/GoNJsK5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/mLPQVB8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
