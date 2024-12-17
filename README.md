@@ -27,6 +27,7 @@ Diagram of the project Network: <br/>
 <p align="center">
 Install Windows Server 2019, After setting up virtualbox and doing minor configurations for virtualbox: <br/>
 <img src="https://imgur.com/nsc6VLS.png](https://imgur.com/Wx2dEPp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Wx2dEPp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/T5ADoYL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/a9T9ZZz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
