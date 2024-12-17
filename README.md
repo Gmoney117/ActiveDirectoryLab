@@ -34,8 +34,8 @@ Install Windows Server 2019, After setting up virtualbox and doing minor configu
 </p>
 
 <p align="center">
-Launch the utility: <br/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Set the Admin username and password: <br/>
+<img src="https://imgur.com/xBDN4kh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
