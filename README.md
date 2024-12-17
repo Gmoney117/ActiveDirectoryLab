@@ -114,10 +114,7 @@ Select "DHCP" from tools dropdown, then right-click the IPv4 under the domain in
  <img src="https://imgur.com/Eit9wTx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/1p5VIPM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/MeTxXc3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://imgur.com/wtsDd7E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- 
+ <img src="https://imgur.com/wtsDd7E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
