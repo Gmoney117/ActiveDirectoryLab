@@ -71,7 +71,7 @@ Create an Organizational Unit for the Domain, And name it _ADMINS: <br/>
 </p>
 
 <p align="center">
-Create a new User for the _ADMINS Organizational Unit, and name it, this will be your first Domain Admin User Account. Set the Password for it as well, then Sign out and sign back in: <br/>
+Create a new User for the _ADMINS Organizational Unit, and name it, this will be your first Domain Admin User Account. Set the Password for it as well, then Sign out: <br/>
 <img src="https://imgur.com/ERFGAGQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/5bBdjbS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <img src="https://imgur.com/j8Irfti.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
