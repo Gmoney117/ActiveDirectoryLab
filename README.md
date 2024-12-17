@@ -82,7 +82,7 @@ Create a new User for the _ADMINS Organizational Unit, and name it, this will be
 <p align="center">
 In the add roles and features wizard, under server roles tab, select remote access option, then under Role Services select the Routing checkbox and click next : <br/>
 <img src="https://imgur.com/mzSQ0Iv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/jvGq4MT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/jvGq4MT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
