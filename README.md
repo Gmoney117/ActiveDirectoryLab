@@ -106,8 +106,18 @@ select add roles and features wizard, then select next, then select Role-based o
 </p>
 
 <p align="center">
-Launch the utility: <br/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Select "DHCP" from tools dropdown, then right-click the IPv4 under the domain in DHCP and select new scope, then enter the IP range we used earlier in the config for the name of the scope "172.16.0.100-200" and click next. Re-enter the Ip in both start and end IP but enter 100 for start and 200 for end, and use a length of 24, and use the subnet mask "255.255.255.0". on the next section that says "Router", enter the IP address of "172.16.0.1". in the next section that says "Domain Name and DNS Servers", enter "myDomain.com" under "parent domain", and enter the IP address "172.16.0.1" into the IP address bar and select add and then next. under the "WINS Servers" section, enter nothing and click next. Finally, check "yes, I want to activate this scope now" and click next and finish.    : <br/>
+<img src="https://imgur.com/va4tFIi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/O7XCL5i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/CjtRIat.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/oqsL298.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/Eit9wTx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/CuEX3ZM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/oi9Czao.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/wtsDd7E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/1p5VIPM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/MeTxXc3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
 <br />
 </p>
 
