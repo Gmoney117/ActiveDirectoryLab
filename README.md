@@ -119,34 +119,106 @@ Select "DHCP" from tools dropdown, then right-click the IPv4 under the domain in
 </p>
 
 <p align="center">
-Launch the utility: <br/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+right-click the Domain and select "Authorize": <br/>
+<img src="https://imgur.com/xhr8GBA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
 <p align="center">
-Launch the utility: <br/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In the "server manager/Localserver", select "IE Enhanced Security Configuration", and then select "off" for both options and select "ok": <br/>
+<img src="https://imgur.com/b6lQXIr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
 <p align="center">
-Launch the utility: <br/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+I imported a Python code that I used to add 1000 pre-configured users with the same password for inital setup. : <br/>
+<img src="https://imgur.com/0fKfkhd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/QGMaLmh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
 <p align="center">
-Launch the utility: <br/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next head to the "Virtual Box manager" and select "add". Next, in the "create virtual machine window", under "Name and operating System", enter "CLIENT1" for the name. Next, find your windows install ISO file and select it. Next, select "Windows 10 (64-bit)", and click "finish".: <br/>
+<img src="https://imgur.com/tiMtz9j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
 <p align="center">
-Launch the utility: <br/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The CLIENT1 should appear below the DC. Go to settings for CLIENT1, and select System. select processor tab, and set the Processors to 4 or whatever suites your needs.: <br/>
+<img src="https://imgur.com/gPQb2h5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
+
+<p align="center">
+Navigate to "Network" tab in "settings", and under "adapter 1", find "Attached to" and select "Internal Network", then click "OK".: <br/>
+<img src="https://imgur.com/C3mOUU2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+</p>
+
+<p align="center">
+Its time to start up the CLIENT1, so start it up and select the Windows ISO file from the drop down. : <br/>
+<img src="https://imgur.com/bDMqbAO" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+</p>
+
+<p align="center">
+Time to start the Windows 10 install! For me I skipped activation, but if you need to activate your Windows then do so. Select your Language of choice, and then click next. Next make sure to select "Windows 10 pro" and NOT home edition for this lab. Next, select "Custom install", and then on the next screen, select your Drive. For the next screen I selected "Limited Experience", but if you need to select the other option you can. I named the PC "User" for this lab, and left the password blank. We should be logged into the home screen now.: <br/>
+<img src="https://imgur.com/4YB5Mwu" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/ZiJlin9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/7SUVVxr" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/9fRaQNc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/2r7Lh8C" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/6eB19sV" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/i30LVi4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+</p>
+
+<p align="center">
+Now that we are on the home screen, We want to open "CMD" as Admin and run the command "ipconfig /all", and check for a Default Gateway. If it has the right IP for the Default Gateway then we can move on and run "ping www.google.com" to check for connection to the internet. Next we can run the command "ping mydomain.com", This will show you if your connected and everything is set up correct so far. Finally, we can run the command "hostname" To see what comes up.   : <br/>
+<img src="https://imgur.com/FAkqEGw" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/n0eZx0d" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/v3LII26" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/YUoysUl" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+<br />
+</p>
+
+<p align="center">
+We need to rename the PC, so we will open Windows start and find the PC settings menu and rename the PC to "CLIENT1", and also select the domain option and enter "mydomain.com", then apply settings. You will need to enter the Admin login to make the change. Finally, the PC will restart. : <br/>
+<img src="https://imgur.com/aZRorrK" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/oXyL7Sg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/aNsa896" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/sdYh2eW" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+</p>
+
+ 
+<br />
+</p>
+
+<p align="center">
+Next we head back over to DHCP tool in the Server manager, and select the "Address Leases" and check if our client IP is in there. Next, select "Computers" inside of the Domain folder and check to see if "CLIENT1" computer has populated. : <br/>
+<img src="https://imgur.com/9jy1k9L" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/4KnST6t" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br />
+</p>
+
+<br />
+</p>
+
+<p align="center">
+Now that we have verified some things, lets log into a user account from our list of users. Select "other user" and use login credentials from a desired user and login. : <br/>
+<img src="https://imgur.com/6bcYD2z" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/tsvgXpN" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br />
+</p>
+
+
 <!--
  ```diff
 - text in red
