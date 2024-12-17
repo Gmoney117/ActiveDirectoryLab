@@ -20,7 +20,7 @@ Documented setup of Active Directory, Including a Youtube video with me doing th
 
 <p align="center">
 Diagram of the project Network: <br/>
-<img src="https://imgur.com/0AZG1AM"/>
+<img src="https://imgur.com/0AZG1AM" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
