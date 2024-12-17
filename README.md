@@ -16,6 +16,8 @@ This project demonstrates the setup and configuration of a basic Active Director
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b> (21H2)
+- <b>Virtual Box</b>
+- <b>Windows Server 2019 10</b>
 
 <h2>Program walk-through:</h2>
 
