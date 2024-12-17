@@ -91,12 +91,12 @@ Under Routing and Remote Access, right-click the DC and select "configure and en
 <img src="https://imgur.com/LEzw6lR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/49Wu0jt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/jxxQdQ9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://imgur.com/a/aF2QoB4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://imgur.com/a/aF2QoB4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
 <p align="center">
-Launch the utility: <br/>
+select add roles and features wizard, then select next, then select Role-based or feature based install, then select a server from server pool, and choose your domain from the list. In server rules select DHCP Server checkbox,  : <br/>
 <img src="https://imgur.com/6XPt6oJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/GoNJsK5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://imgur.com/mLPQVB8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
